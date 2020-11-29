@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "650724809244",
+    "firebase_url": "https://biblioteca-90ed0.firebaseio.com",
+    "project_id": "biblioteca-90ed0",
+    "storage_bucket": "biblioteca-90ed0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650724809244:android:20b922879d4b426533ddd9",
+        "android_client_info": {
+          "package_name": "com.biblioteca.biblioteca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650724809244-44vir9r4cfouv1600h84f07quqljis6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD91D_i2W_vum4eG8arZi6LV0KBjcuot8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650724809244-44vir9r4cfouv1600h84f07quqljis6g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
