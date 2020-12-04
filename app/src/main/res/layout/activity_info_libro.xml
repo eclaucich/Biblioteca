@@ -7,6 +7,7 @@
     tools:context=".InfoLibroActivity">
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -127,11 +128,23 @@
             android:layout_width="match_parent"
             android:layout_height="30dp" />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
         <Button
-            android:id="@+id/editarLibroButton"
+            android:id="@+id/devolverLibroButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="EDITAR" />
+            android:text="DEVOLVER" />
 
         <Button
             android:id="@+id/retirarLibroButton"
@@ -140,10 +153,9 @@
             android:text="RETIRAR" />
 
         <Button
-            android:id="@+id/devolverLibroButton"
+            android:id="@+id/editarLibroButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="DEVOLVER" />
-
+            android:text="EDITAR" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

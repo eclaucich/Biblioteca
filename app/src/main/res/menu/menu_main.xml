@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/action_profile"
         android:title="Mi Usuario" />
     <item
-        android:id="@+id/action_logout"
-        android:title="Cerrar Sesión" />
-    <item
         android:id="@+id/action_addBook"
         android:title="Agregar Libro" />
+    <item
+        android:id="@+id/action_logout"
+        android:title="Cerrar Sesión" />
 </menu>
